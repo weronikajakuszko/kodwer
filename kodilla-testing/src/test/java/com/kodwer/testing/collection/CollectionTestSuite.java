@@ -38,11 +38,13 @@ public class CollectionTestSuite {
         numberList.add(3);
         numberList.add(4);
         numberList.add(7);
+        ArrayList<Integer> evenList = new ArrayList<Integer>();
+        evenList.add(2);
+        evenList.add(4);
         //When
         ArrayList<Integer> result = oddNumbersExterminator.exterminate(numberList);
         System.out.println("Testing case - list with odd and even numbers");
         //Then
-        Assert.assertTrue(result.get(0)==2);
-        Assert.assertTrue(result.get(1)==4);
+        Assert.assertEquals(evenList,result);
     }
 }
