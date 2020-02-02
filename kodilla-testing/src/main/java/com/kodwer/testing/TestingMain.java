@@ -1,7 +1,12 @@
 package com.kodwer.testing;
 
+import com.kodwer.testing.calculator.Calculator;
+import com.kodwer.testing.user.SimpleUser;
+
+import javax.swing.plaf.synth.SynthEditorPaneUI;
+
 public class TestingMain {
-    public static void main(String[] args){
-        System.out.println("Moduł 6. Wprowadzenie to testowania oprogramowania");
+    public static void main(String[] args) {
+
     }
 }
